@@ -1,5 +1,5 @@
 module.exports = function (sequelize, DataTypes) {
-  const Pose = sequelize.define("Pose", {
+  const Manga = sequelize.define("Manga", {
     id: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
@@ -66,5 +66,5 @@ module.exports = function (sequelize, DataTypes) {
   },{
     timestamps: false,
   });
-  return Pose;
+  return Manga;
 };

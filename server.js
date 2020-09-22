@@ -28,11 +28,11 @@ app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
 // Import routes and give the server access to them.
-const routes = require('./controllers/pose_controller.js');
+const routes = require('./controllers/manga_controller.js');
 // require('./routes/html-routes.js')(app);
 require('./routes/api-routes.js')(app);
 require("./routes/html-routes.js")(app);
-require('./controllers/pose_controller.js')(app);
+require('./controllers/manga_controller.js')(app);
 // app.use(routes);
 
 // Start our server so that it can begin listening to client requests.

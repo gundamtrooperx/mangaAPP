@@ -1,4 +1,4 @@
 -- Drops the blogger if it exists currently --
-DROP DATABASE IF EXISTS asana_db;
+DROP DATABASE IF EXISTS mangaAPP_db;
 -- Creates the "blogger" database --
-CREATE DATABASE asana_db;
+CREATE DATABASE mangaAPP_db;
