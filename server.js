@@ -32,7 +32,7 @@ const routes = require('./controllers/manga_controller.js');
 // require('./routes/html-routes.js')(app);
 require('./routes/api-routes.js')(app);
 require("./routes/html-routes.js")(app);
-require('./controllers/manga_controller.js')(app);
+
 // app.use(routes);
 
 // Start our server so that it can begin listening to client requests.
