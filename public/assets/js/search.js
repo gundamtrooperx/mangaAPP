@@ -25,7 +25,7 @@ $("#searchBtn").on("click", function (event) {
     // data: { activity: JSON.stringify(activity) },
     // dataType: "json",
 })
-.then(function(pose){$("#pose").append(pose)});
+.then(function(manga){$("#manga").append(manga)});
 
   
   console.log("QUERY STRING: ", queryString);

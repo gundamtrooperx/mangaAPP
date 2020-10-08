@@ -61,10 +61,10 @@ module.exports = function (app) {
       },
     }).then((results) => {
       console.log('REULTS: ', results);
-      const dbPoses = results.map((pose) => pose.dataValues);
-      console.log(dbPoses);
+      const dbManga = results.map((manga) => manga.dataValues);
+      console.log(dbManga);
       // res.json(dbPoses);
-      res.render('result', { data: dbPoses, layout:false });
+      res.render('result', { data: dbManga, layout:false });
     });
   });
 };
