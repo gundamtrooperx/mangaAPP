@@ -1,0 +1,33 @@
+{
+  "name": "mangaapp",
+  "version": "1.0.0",
+  "description": "app where it helps display all the current in market manga volumes.  Also has a user login to where each user can check off the list of volumes of what mangas they currently have.  so that whenever they look onto this app they can see what they dont have and what is currently out to keep up on their current collection.  This app is meant for users who tend to forget what they have and dont have time to return to see what they dont have.",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gundamtrooperx/mangaAPP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gundamtrooperx/mangaAPP/issues"
+  },
+  "homepage": "https://github.com/gundamtrooperx/mangaAPP#readme"
+}
